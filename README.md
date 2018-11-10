@@ -1,0 +1,2 @@
+# Kickr
+Kickr is an intramural soccer league managing web application. This is a group project consisting of 4 team members including myself. I was responsible for the frontend development along with a colleague of mine, while the other half were responsible for the backend. For the frontend we used javascript framework ReactJS, and Python/SQL for the backend. Our application will be deployed on heroku servers (but is a work in progress). This project is originally stored/edited using GitLab so there wont be any push history shown here on GitHub.
