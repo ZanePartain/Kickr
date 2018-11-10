@@ -1,0 +1,56 @@
+.myForm{
+    margin: 0 auto;
+    width: 390px;
+    font-size: 15pt;
+}
+.myForm input{
+    width: 100%;
+    height: 40px;
+    border: 0px;
+    border-radius: 4px;
+    border-bottom: 1px solid;
+    margin-bottom: 8px;
+    opacity: 0.75;
+}
+.myForm input:hover{
+    opacity: 0.9;
+}
+.myForm .signUp{
+    float: right;
+    width: 175px;
+    border-radius: 4px;
+    margin-right: 8px;
+}
+.myForm .signUp:hover{
+    color: darkgreen;
+    font-size: 21px;
+}
+.myForm select{
+    display: block;
+    margin-bottom: 4px;
+    font-size: 12pt;
+    border-radius: 4px;
+    padding-left: 5px;
+    margin-left: 8px;
+}
+
+
+.cancelCreate{
+    float: left;
+    font-size: 23px;
+    font-weight: 500;
+    padding-left: 12px
+}
+.cancelCreate:hover{
+    font-size: 24px;
+    padding-left: 11px;
+}
+
+
+.Register{
+    height:100%;
+    background-image: url(../Welcome-Form/soccerfield-2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: local;
+}
