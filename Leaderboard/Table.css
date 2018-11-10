@@ -1,0 +1,24 @@
+.Table-container {
+    overflow-x: auto; /*Needed for table to be responsive*/
+  }  
+.Table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    background-color: #F0EAD6; 
+  }  
+.Table-head tr th {
+    text-align: center;
+    padding: 10px 20px;
+    color: black;
+    font-size: 14px;
+    font-weight: 400;
+  }
+.Table-body tr th{
+    text-align: center;
+  }
+  tr:hover {
+    background-color: #D6DCF0;
+  }
+  
+  
