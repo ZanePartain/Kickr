@@ -1,0 +1,46 @@
+div .dashHead{
+    padding-top: 10px;
+    background-image: linear-gradient(to bottom,#5ad75a,#2db82d) ;
+    display: block;
+    height: 70px;
+}
+
+
+header h1{
+    color: whitesmoke;
+    font-weight: 900;
+    display: inline-block;
+    margin: 0 15px;
+     
+}
+
+.navBar {
+    position: relative;
+    float: right;
+    margin: 13px 30px;
+}
+
+.navBar .tab{
+    margin: 0 15px;
+    color: red;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+/*If the media screen is less than 650px
+ then style below will apply*/
+@media screen and (max-width: 650px){
+    div .dashHead{
+        height: auto;
+    }
+
+    header h1{
+        display: block;
+    }
+    .navBar{
+        margin: auto;
+        float: none;
+        width: 50%;
+        text-align:center;
+    }
+}
